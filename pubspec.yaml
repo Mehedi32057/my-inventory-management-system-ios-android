@@ -1,0 +1,44 @@
+name: nexchain
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  archive: ^3.4.11
+  flutter:
+    sdk: flutter
+  device_preview_plus: ^2.2.3
+  http: ^1.2.2
+  intl: ^0.19.0
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  google_maps_flutter: ^2.10.0
+  google_maps_flutter_web: ^0.5.10
+  cupertino_icons: ^1.0.8
+  pdf: ^3.11.1
+  printing: ^5.13.4
+
+#  flutter_barcode_scanner: ^2.0.0
+#  barcode_widget: ^1.6.0
+
+  carousel_slider: ^5.0.0
+  qr_code_scanner: ^0.6.1
+
+assets:
+    - images/
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
